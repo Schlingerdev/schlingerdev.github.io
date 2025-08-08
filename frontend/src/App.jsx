@@ -9,6 +9,8 @@ import LoginScreen from './components/LoginScreen.jsx'
 import Header from './components/Header.jsx'
 import './App.css'
 
+const API_BASE = window.location.hostname.endsWith('github.io') ? 'https://9yhyi3c8nomq.manus.space' : '';
+
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [authLoading, setAuthLoading] = useState(true)
