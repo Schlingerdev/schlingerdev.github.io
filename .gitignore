@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+src/database/*.db
+src/database/*.sqlite
+.env
+
+# Node
+frontend/node_modules/
+frontend/.pnpm*
+frontend/.parcel-cache/
+frontend/.vite/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts (keep frontend/dist for GitHub Pages)
+!frontend/dist/
